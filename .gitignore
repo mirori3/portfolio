@@ -1,0 +1,7 @@
+# GitHubに送らないファイル（作業用・非公開）
+portfolio-prompt-template.md
+portfolio-interview-prompt.md
+my-portfolio-prompt.md
+CLAUDE.md
+ポートフォリオ制作用デモデータ.txt
+.claude/
