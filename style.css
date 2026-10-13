@@ -518,6 +518,37 @@ svg { display: block; }
   background: var(--color-accent);
 }
 
+/* note banner */
+.about__note {
+  display: block;
+  max-width: 800px;
+  margin: 64px auto 0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: box-shadow .3s var(--ease), transform .3s var(--ease);
+}
+
+.about__note:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-3px);
+}
+
+.about__note:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 4px;
+}
+
+.about__note-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .about__note { margin-top: 48px; border-radius: 12px; }
+}
+
 /* =========================================================
    5. Skills
 ========================================================= */
